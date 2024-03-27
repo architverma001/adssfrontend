@@ -1,0 +1,240 @@
+.image {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.date-time {
+  font-size: 12px;
+  color: #8c8c8c;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.alignment {
+  align-items: center;
+
+}
+
+.imgborder {
+  border: 1px solid #999999;
+  border-radius: 50%;
+}
+
+.border-right {
+  border-right: 1px solid #d9d9d9;
+}
+
+.width-height {
+  width: 28%;
+  height: 80vh;
+}
+
+.height80 {
+  height: 80vh;
+}
+
+.height70 {
+  height: 70vh;
+}
+
+.height65 {
+  height: 65vh;
+}
+
+.border-1 {
+  border: 1px solid #282727;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.shadd-hov:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 5px 0;
+  left: 45px;
+  z-index: 1;
+  background-color: #121329;
+  color: #ffffff;
+}
+
+.dropdown2 {
+  position: absolute;
+  border: 1px solid #d9d9d9;
+
+  border-radius: 4px;
+  padding: 5px 0;
+  left: 25vw;
+  z-index: 1;
+  background-color: #121329;
+  color: #ffffff;
+}
+
+.option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+
+.card-container {
+  overflow-y: auto;
+}
+
+.card {
+  display: flex;
+  padding: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #282727;
+  background-color: #ffffff;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+.location-list {
+  max-height: 100px;
+  /* Limit height to 100px */
+  overflow-y: auto;
+  /* Add scrollbar if content overflows */
+}
+
+.location-list::-webkit-scrollbar {
+  display: none;
+}
+
+.location-item {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  /* Optional: Add border between items */
+}
+
+.card_add {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font: 600;
+}
+
+.card_id {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font: 600;
+}
+
+.card_time {
+  color: #dddddd;
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #282727;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.card-row:hover {
+  background-color: #b6b6b6;
+}
+
+.border {
+  border: 1px solid #d9d9d9;
+}
+
+.headerfont {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.border-left {
+  border-left: 1px solid #282727;
+}
+
+.height50 {
+  height: 50vh;
+}
+
+.default_img {
+  height: 80vh;
+  width: 100%;
+
+}
+
+.pad_bot {
+  padding-bottom: 10px;
+}
+
+
+/* Hide scrollbar for WebKit browsers */
+.card_add div::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar width */
+  background: transparent;
+  /* Set scrollbar background color to transparent */
+}
+
+/* Optional: Handle scrollbar thumb appearance */
+.card_add div::-webkit-scrollbar-thumb {
+  display: none;
+  /* Hide the scrollbar thumb */
+}
+
+
+.border-r-1 {
+  border-right: 1px solid #d9d9d9;
+}
+
+.detail_class {
+  overflow-y: auto;
+
+}
+
+/* Hide scrollbar for WebKit browsers */
+.detail_class::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+  /* Set scrollbar background color to transparent */
+}
+
+/* Optional: Handle scrollbar thumb appearance */
+.detail_class::-webkit-scrollbar-thumb {
+  display: none;
+  /* Hide the scrollbar thumb */
+}
+
+.apps {
+  height: 100%;
+  width: 100%;
+
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+}
